@@ -1,6 +1,7 @@
-package the.flash.protocol.command;
+package the.flash.protocol.command.packet;
 
 import lombok.Data;
+import the.flash.protocol.command.Packet;
 
 import static the.flash.protocol.command.Command.LOGIN_REQUEST;
 

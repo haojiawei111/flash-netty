@@ -1,8 +1,11 @@
-package the.flash.protocol.command;
+package the.flash.protocol.command.packet;
 
 import io.netty.buffer.ByteBuf;
 import org.junit.Assert;
 import org.junit.Test;
+import the.flash.protocol.command.Packet;
+import the.flash.protocol.command.PacketCodeC;
+import the.flash.protocol.command.packet.LoginRequestPacket;
 import the.flash.serialize.Serializer;
 import the.flash.serialize.impl.JSONSerializer;
 
