@@ -7,6 +7,9 @@ import the.flash.protocol.PacketCodeC;
 
 import java.util.List;
 
+/**
+ * 解码器
+ */
 public class PacketDecoder extends ByteToMessageDecoder {
 
     @Override
