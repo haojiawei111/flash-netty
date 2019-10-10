@@ -35,6 +35,7 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
             loginResponsePacket.setVersion(packet.getVersion());
             if (valid(loginRequestPacket)) {
                 loginResponsePacket.setSuccess(true);
+                LoginUtil.markAsLogin(ctx.channel());
                 System.out.println(new Date() + ": 登录成功!");
             } else {
                 loginResponsePacket.setReason("账号密码校验失败");
